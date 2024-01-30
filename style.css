@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6F8F9;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header  */
+
+header{
+    background-color: #FFFFFF;
+    margin: 10px 20px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.name-logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Main */
+
+.circle{
+    display: inline-block;
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: beige;
+}
+
