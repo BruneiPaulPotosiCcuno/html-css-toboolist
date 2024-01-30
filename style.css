@@ -26,6 +26,45 @@ header{
 
 /* Main */
 
+button{
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.buttom-1{
+    color: white;
+    border: 1px solid #47ADF1;
+    background-color: #47ADF1;
+}
+
+.buttom-2{
+    color: #D0D5D9;
+    border: 1px solid #D0D5D9 ;
+    background-color: white;
+}
+
+.section-buttom{
+    margin-bottom: 45px;
+}
+
+/* Section content */
+.new-task{
+    display: block;
+    padding-bottom: 40px;
+}
+
+.today{
+    display: inline-block;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.upcoming{
+    display: block;
+    padding-bottom: 40px;
+}
 .circle{
     display: inline-block;
     border: 1px solid black;
@@ -37,9 +76,13 @@ header{
 
 }
 
+.text-new-task{
+    
+}
 .container{
     max-width: 800px;
     margin: 0 auto;
-    background-color: beige;
+    background-color: #FFFFFF;
+    padding: 100px;
 }
 
